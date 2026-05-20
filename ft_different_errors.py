@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def garden_operation(operation_number) -> None:
+def garden_operation(operation_number: int) -> None:
     if (operation_number == 0):
         try:
             int("abc")
